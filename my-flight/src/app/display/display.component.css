@@ -1,0 +1,75 @@
+.container{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top:-30px;
+    left:60px;
+
+}
+
+.tableData{
+    position: absolute;
+    top :200px;
+    left: 52px;
+   
+    color: black;
+    
+
+}
+
+td {
+    font-family: cursive;
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+}
+
+/* .image-head {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+  } */
+
+/* .table {
+    position: absolute;
+    top: 100px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+} */
+
+/* .th {
+    position: absolute;
+    top: 100px;
+    border: 1px solid #dddddd;
+
+}
+.td  {
+   
+position: absolute;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tr:nth-child(even) {
+    position: absolute;
+    top: 100px;
+
+    background-color: #dddddd;
+} */
+
+.displaydata{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+
+}

@@ -1,0 +1,92 @@
+.container{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top:-30px;
+    left:60px;
+
+}
+
+.content{
+position: absolute;
+top:120px;
+left:100px;
+color: black;
+font: bold;
+
+}
+
+
+.from{
+   
+    position: absolute;
+    font-family: cursive;
+    border: 1px solid #111111 ;
+    background-color: transparent;
+    top :200px;
+    left: 200px;
+
+
+    color: black;
+}
+.from option{
+    border: 1px solid #111111 ;
+
+}
+
+
+.to{
+    position: absolute;
+    font-family: cursive;
+    border: 1px solid #111111;
+
+    background-color: transparent;  
+    top:200px;
+    left: 600px;
+    color: black;
+    
+}
+
+.to option{
+    background-color: #008080
+
+}
+
+.date{
+    position: absolute;
+    font-family: cursive;
+    border-color: #111111;
+    background-color: transparent;
+    top: 200px;
+    left: 1000px;
+    color: black;
+}
+
+
+
+.search{
+position: absolute;
+font-family: cursive;
+border: 1px solid #111111;
+background-color: transparent ;
+top: 140px;
+left:310px;
+color: black;
+
+}
+
+.display{
+    position: absolute;
+    font-family: cursive;
+
+top: 130px;
+left:315px;
+color: black;
+
+}
+
+
+
+

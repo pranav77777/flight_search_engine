@@ -1,0 +1,81 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="container" >
+
+
+
+
+     
+                <div class="container">
+
+                      <img src="../assets/images/flight.jpg" alt="Avatar" class="avatar" style="width: 100%; height: 635px;">
+
+                      <div class= "logo">
+
+                        <img src="../assets/images/f3.png">
+                      </div>
+
+
+                      <div class = "content" style="font-family: cursive">
+                          <p>
+                              Book Domestic and international flights
+                            </p>
+
+                      </div>
+                      
+                  <div class = "from">
+
+                    
+
+                      <label for="From"><b>From City:</b></label>
+                      <select  [(ngModel)]="fromCity" style="background-color: transparent; border: transparent;font-family: cursive; width: 110px">
+                            <option value="PUNE" >Pune</option>
+                            <option value="MUMBAI" >Mumbai</option>
+                            <option value="BANGLORE">Banglore</option>
+                            <option value="DELHI" >Delhi</option>
+                            </select>
+                    </div>
+
+                    <div class="to">
+                        <label for="To"><b>To City:</b></label>
+                        <select   [(ngModel)]="toCity" style="background-color: transparent; border: transparent;font-family: cursive; width: 140px">
+
+                            <option value="PUNE" >Pune</option>
+                            <option value="MUMBAI" >Mumbai</option>
+                            <option value="BANGLORE" >Banglore</option>
+                            <option value="DELHI" >Delhi</option>
+                            </select>
+                      </div>
+                      
+                      
+                      <div class="date" style="background-color: transparent; border: #111;font-family: cursive">
+                          <label for="Date"><b>Date</b></label>
+                          <input   [(ngModel)]="date" type="date" placeholder="Date" name="Date" required style="background-color: transparent; border: transparent;font-family: cursive; width: 140px">
+                      
+                      </div>
+
+            
+                      
+                   
+                     <div class="search" >
+                        <button id="myBtn"  class="search" (click)="myFunction()">Search</button>
+
+                     </div>
+
+                </div>
+
+                      
+
+
+            
+ 
+  
+</div>
+
+
+
+
+
+
+
+
+
